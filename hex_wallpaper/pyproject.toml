@@ -13,8 +13,15 @@ dependencies = [
     "marimo (>=0.18.4,<0.19.0)"
 ]
 
+
 [tool.poetry]
-packages = [{include = "hex_wallpaper", from = "src"}]
+name = "hex_wallpaper"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <email>"]
+packages = [
+    { include = "hex_wallpaper", from = "src" }
+]
 
 [build-system]
 requires = ["poetry-core>=2.0.0,<3.0.0"]
