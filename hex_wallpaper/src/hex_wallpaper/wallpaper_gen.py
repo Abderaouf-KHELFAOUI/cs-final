@@ -108,7 +108,7 @@ class HexWallpaperGenerator:
         print(f"SVG saved to {output_file}")
 
 
-from hex_wallpaper.wallpaper_gen import HexWallpaperGenerator
+
 
 def main():
     gen = HexWallpaperGenerator(
