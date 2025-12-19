@@ -21,5 +21,5 @@ The project is written with Python, packaged using Poetry, and includes an optio
 Clone the repo:
 
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/Abderaouf-KHELFAOUI/cs-final.git
 cd hex_wallpaper
