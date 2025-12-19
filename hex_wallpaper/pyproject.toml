@@ -1,0 +1,21 @@
+[project]
+name = "hex-wallpaper"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Raouf",email = "khelfaoui.abderraouf@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "pillow (>=12.0.0,<13.0.0)",
+    "numpy (>=2.3.5,<3.0.0)",
+    "marimo (>=0.18.4,<0.19.0)"
+]
+
+[tool.poetry]
+packages = [{include = "hex_wallpaper", from = "src"}]
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
