@@ -21,14 +21,17 @@ jobs:
     - name: Install Poetry
       run: |
         pip install poetry
+      working-directory: hex_wallpaper
 
     - name: Install dependencies
       run: |
         poetry install --no-interaction --no-root
+      working-directory: hex_wallpaper
 
     - name: Run generator
       run: |
         poetry run python -m hex_wallpaper.cli
+      working-directory: hex_wallpaper
 
     - name: Upload generated SVG as artifact
       uses: actions/upload-artifact@v4
